@@ -30,29 +30,6 @@ CREATE TABLE `Loans`(
 );
 ```
 **By using this syntax we can creat table.**
-***
-
-
-
-> SELECT all loan applications from the table.
-
-## Syntax
-
-```sql
-SELECT *
-FROM Loans
-```
-
-**This way we can `SELECT` all data in table.**
-
->SELECT all loan applications with a status of "Approved".
-
-## Syntax
-
-```sql
-SELECT *
-FROM Loans
-WHERE Status = Approved
 
 
 
