@@ -16,7 +16,7 @@ Select * from Loans Where Status='Approved'
 
 -- Syntax
 
-Select * From Loans Where 'Loan Amount' = '> 10000'
+select * From Loans Where LoanAmount>10000
 
 -- SELECT the first name, last name, and loan amount of all loan applications.
 
