@@ -29,7 +29,7 @@ CREATE TABLE `Loans`(
 `Status` TEXT
 );
 ```
-**By using this syntax we can creat table.**
+**By using this syntax we can create table.**
 
 
 
