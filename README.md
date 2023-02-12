@@ -20,7 +20,7 @@
 
 ```sql
 CREATE TABLE `Loans`(
-`ID` TEXT,
+`ID` Int,
 `First Name` TEXT,
 `Last Name` TEXT,
 `Email` TEXT,
