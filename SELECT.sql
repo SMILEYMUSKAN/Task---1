@@ -28,7 +28,7 @@ Select Firstname,Lastname,Loanamount from Loans
 
 -- Syntax
 
-Select 'Loan Amount' From Loans Where Status='Approved'
+Select 'LoanAmount' From Loans Where Status='Approved'
 
 
 
