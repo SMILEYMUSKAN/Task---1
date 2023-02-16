@@ -13,11 +13,12 @@ CREATE TABLE loans (
 
 -- With Validation
 CREATE TABLE loans (
-	id INT,
+	id INT NOT NULL Auto_Increment,
     firstname VARCHAR(100) NOT NULL,
     lastname VARCHAR(100) NOT NULL,
-    email VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL Unique,
     loan_amount INT NOT NULL,
     purpose VARCHAR(250) NOT NULL,
-    status VARCHAR(20) NOT NULL
+    status  VARCHAR(20) NOT NULL,
+    Primary Key (id)
 );
