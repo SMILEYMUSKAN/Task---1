@@ -2,7 +2,7 @@
 
 -- Syntax
 
-Update Loans Set Purpose='Debt Consolidation'Where Status='Approved'
+Update Loans Set Status='Approved'WHERE Purpose='Debt Consolidation'
 
 -- UPDATE the loan amount of a specific loan application by its ID.
 
