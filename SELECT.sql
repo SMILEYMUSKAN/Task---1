@@ -28,7 +28,7 @@ Select Firstname,Lastname,Loanamount from Loans
 
 -- Syntax
 
-Select 'LoanAmount' From Loans Where Status='Approved'
+Select AVG(LoanAmount) From Loans Where Status='Approved'
 
 
 
